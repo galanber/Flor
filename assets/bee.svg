@@ -1,0 +1,75 @@
+<svg 
+viewBox="0 0 200 150"
+xmlns="http://www.w3.org/2000/svg">
+
+
+<!-- Alas -->
+
+<ellipse
+cx="70"
+cy="40"
+rx="35"
+ry="20"
+fill="#dff8ff"
+opacity="0.8"/>
+
+
+<ellipse
+cx="120"
+cy="40"
+rx="35"
+ry="20"
+fill="#dff8ff"
+opacity="0.8"/>
+
+
+
+<!-- Cuerpo -->
+
+<ellipse
+cx="100"
+cy="80"
+rx="55"
+ry="35"
+fill="#ffc400"/>
+
+
+<!-- Rayas -->
+
+
+<rect
+x="75"
+y="50"
+width="12"
+height="60"
+fill="#222"/>
+
+
+<rect
+x="105"
+y="50"
+width="12"
+height="60"
+fill="#222"/>
+
+
+
+<!-- Cabeza -->
+
+<circle
+cx="45"
+cy="80"
+r="25"
+fill="#222"/>
+
+
+<!-- Ojos -->
+
+<circle
+cx="35"
+cy="72"
+r="5"
+fill="white"/>
+
+
+</svg>
