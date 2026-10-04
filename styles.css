@@ -1,0 +1,241 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+
+body{
+
+    min-height:100vh;
+
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+
+    overflow:hidden;
+
+    font-family:
+    "Segoe UI",
+    Arial,
+    sans-serif;
+
+
+    background:
+    linear-gradient(
+        135deg,
+        #fff4c2,
+        #ffc86b,
+        #f6a04d
+    );
+
+}
+
+
+/* TITULO */
+
+header{
+
+    text-align:center;
+
+    margin-top:50px;
+
+}
+
+
+h1{
+
+    font-size:
+    clamp(2rem,5vw,4rem);
+
+    color:#7a3e00;
+
+    letter-spacing:2px;
+
+}
+
+
+header p{
+
+    margin-top:10px;
+
+    color:#805000;
+
+    font-size:1.2rem;
+
+}
+
+
+
+/* ESCENARIO */
+
+.scene{
+
+    flex:1;
+
+    display:flex;
+
+    align-items:center;
+
+    justify-content:center;
+
+    margin-top:50px;
+
+
+}
+
+
+
+.flower-container{
+
+    position:relative;
+
+    width:min(40vw,300px);
+
+    height:min(40vw,300px);
+
+    margin-top:40px;
+
+}
+
+
+
+/* GIRASOL */
+
+
+.sunflower{
+
+    width:100%;
+
+    position:absolute;
+
+    bottom:20px;
+
+    animation:
+
+    wind 4s ease-in-out infinite;
+
+}
+
+
+
+/* MOVIMIENTO DE VIENTO */
+
+@keyframes wind{
+
+
+    0%,100%{
+
+        transform:
+        rotate(-2deg);
+
+    }
+
+
+    50%{
+
+        transform:
+        rotate(2deg);
+
+    }
+
+}
+
+
+
+
+/* ABEJA */
+
+
+.bee{
+
+    width:70px;
+
+    position:absolute;
+
+    top:40%;
+
+    left:50%;
+
+
+    animation:
+
+    fly 6s linear infinite;
+
+}
+
+
+
+@keyframes fly{
+
+
+from{
+
+    transform:
+
+    rotate(0deg)
+
+    translateX(180px)
+
+    rotate(0deg);
+
+}
+
+
+to{
+
+    transform:
+
+    rotate(360deg)
+
+    translateX(180px)
+
+    rotate(-360deg);
+
+}
+
+
+}
+
+
+
+
+
+footer{
+
+    padding:20px;
+
+    color:#805000;
+
+}
+
+
+
+/* CELULAR */
+
+
+@media(max-width:600px){
+
+
+header{
+
+    margin-top:30px;
+
+}
+
+
+header p{
+
+    font-size:1rem;
+
+}
+
+
+.bee{
+
+    width:50px;
+
+}
+
+
+}
