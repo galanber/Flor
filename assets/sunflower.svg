@@ -1,1 +1,113 @@
 
+<svg 
+viewBox="0 0 500 600"
+xmlns="http://www.w3.org/2000/svg">
+
+
+<!-- Tallo -->
+
+<path 
+d="
+M250 350 
+C230 450 250 550 250 600
+"
+stroke="#3c8c32"
+stroke-width="25"
+fill="none"/>
+
+
+<!-- Hojas -->
+
+<ellipse
+cx="170"
+cy="470"
+rx="80"
+ry="35"
+fill="#4ca843"
+transform="rotate(-25 170 470)"
+/>
+
+
+<ellipse
+cx="330"
+cy="500"
+rx="80"
+ry="35"
+fill="#4ca843"
+transform="rotate(25 330 500)"
+/>
+
+
+
+<!-- Petalos -->
+
+
+<g fill="#ffd21f">
+
+
+<ellipse cx="250" cy="120"
+rx="55" ry="150"/>
+
+
+<ellipse cx="250" cy="120"
+rx="55" ry="150"
+transform="rotate(45 250 250)"/>
+
+
+<ellipse cx="250" cy="120"
+rx="55" ry="150"
+transform="rotate(90 250 250)"/>
+
+
+<ellipse cx="250" cy="120"
+rx="55" ry="150"
+transform="rotate(135 250 250)"/>
+
+
+<ellipse cx="250" cy="120"
+rx="55" ry="150"
+transform="rotate(180 250 250)"/>
+
+
+<ellipse cx="250" cy="120"
+rx="55" ry="150"
+transform="rotate(225 250 250)"/>
+
+
+<ellipse cx="250" cy="120"
+rx="55" ry="150"
+transform="rotate(270 250 250)"/>
+
+
+<ellipse cx="250" cy="120"
+rx="55" ry="150"
+transform="rotate(315 250 250)"/>
+
+
+</g>
+
+
+
+<!-- Centro -->
+
+<circle
+cx="250"
+cy="250"
+r="90"
+fill="#6b3900"/>
+
+
+<!-- Semillas -->
+
+<g fill="#3b2000">
+
+<circle cx="210" cy="220" r="8"/>
+<circle cx="260" cy="210" r="8"/>
+<circle cx="300" cy="250" r="8"/>
+<circle cx="230" cy="280" r="8"/>
+<circle cx="280" cy="290" r="8"/>
+
+</g>
+
+
+</svg>
